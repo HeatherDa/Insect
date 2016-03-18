@@ -31,6 +31,6 @@ public class Butterfly extends Insect {
     }
 
     public void printSpeciesData(){
-        System.out.println("A "+this.name+" butterfly has "+Insect.getLegs()+" legs, "+this.wings+" wings, "+this.color+", and likes a plant called "+this.flower);
+        System.out.println("A "+this.name+" butterfly has "+Insect.getLegs()+" legs, "+this.wings+" wings, is "+this.color+", and likes a plant called "+this.flower+".");
     }
 }

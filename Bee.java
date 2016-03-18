@@ -17,7 +17,7 @@ public class Bee extends Insect{
     }
     public void printSpeciesData(){
         String makehoney;
-        if (honey==true){
+        if (this.honey==true){
             makehoney="  This bee makes honey.";
         }else{
             makehoney="  This bee does not make honey.";
